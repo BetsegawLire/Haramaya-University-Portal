@@ -12,12 +12,16 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './components/login/login.component';
 import { WelcomePageComponent } from './components/welcome-page/welcome-page.component';
+import { MyGradeComponent } from './components/my-grade/my-grade.component';
+import { RegistrationComponent } from './components/registration/registration.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    WelcomePageComponent
+    WelcomePageComponent,
+    MyGradeComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,
